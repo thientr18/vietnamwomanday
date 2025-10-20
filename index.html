@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Women's Day 20/10 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Music Toggle Button -->
+    <button id="musicToggle" class="music-toggle">🎵</button>
+    <audio id="bgMusic" loop>
+        <source src="/assets/a-thousand-eye.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Emojis -->
+    <div class="floating-emojis" id="floatingEmojis"></div>
+
+    <!-- Section 1: Intro -->
+    <section class="section intro-section" id="intro">
+        <div class="container">
+            <h1 class="typing-text" id="typingText"></h1>
+            <img src="/assets/hi-there-my-love-love.gif" alt="Bunny with Flowers" class="gif-image">
+        </div>
+    </section>
+
+    <!-- Section 2: Opening Message -->
+    <section class="section message-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Gửi cục dàng của anh 🐰</h2>
+            <img src="/assets/cute-penguin-i-love-ya-25yiinxpzez6y2gm.gif" alt="Pusheen" class="gif-image">
+            <p class="message-text">
+                Vợ yêu ơi, ngày 20/10 này, anh muốn chúc em có được những điều tốt đẹp nhứt.
+                Em là người quan trọng nhất với anh, là người mà mỗi ngày mỗi đêm 
+                hay dù có ngồi kế bên anh đều nhớ. 💕
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 3: Countdown -->
+    <section class="section countdown-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Hành trình của chúng ta ✨</h2>
+            <div class="countdown-box">
+                <p class="countdown-text">Chúng ta đã bên nhau được</p>
+                <div class="countdown-number" id="daysCounter">0</div>
+                <p class="countdown-text">ngày tuyệt vời</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Timeline/Memories -->
+    <section class="section timeline-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Những Kỷ Niệm Đáng Nhớ 💖</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+    <div class="timeline-image">
+        <!-- First meeting SVG -->
+        <svg width="100%" height="100%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="bg1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="0%" stop-color="#ffcce0" />
+                    <stop offset="100%" stop-color="#ff9eba" />
+                </radialGradient>
+            </defs>
+            <rect width="300" height="300" fill="url(#bg1)" rx="20" />
+            <!-- Two people meeting -->
+            <circle cx="100" cy="120" r="40" fill="#d580ff" />
+            <circle cx="200" cy="120" r="40" fill="#ff80ab" />
+            <path d="M100,160 C100,200 200,200 200,160" stroke="#ffffff" stroke-width="5" fill="none" />
+            <!-- Heart between them -->
+            <path d="M140,100 L150,110 L160,100 C160,80 130,80 140,100" fill="#ff3377" />
+            <path d="M160,100 L150,110 L140,100 C140,80 170,80 160,100" fill="#ff3377" />
+        </svg>
+    </div>
+    <div class="timeline-content">
+        <h3>Ngày đầu tiên gặp nhau</h3>
+        <p>Những ngày mà tình yêu tụi mình bắt đầu, hong ai nghĩ là có thế tiến xa đến vậy 💫</p>
+        <img src="/assets/so-excited.gif" alt="Meme excited" class="reaction-gif">
+    </div>
+</div>
+
+<div class="timeline-item">
+    <div class="timeline-image">
+        <!-- Sweet memories SVG -->
+        <svg width="100%" height="100%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="bg2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="0%" stop-color="#e0ccff" />
+                    <stop offset="100%" stop-color="#bf9fee" />
+                </radialGradient>
+            </defs>
+            <rect width="300" height="300" fill="url(#bg2)" rx="20" />
+            <!-- Couple sitting on bench -->
+            <rect x="70" y="180" width="160" height="20" fill="#a67c52" rx="5" /> <!-- bench -->
+            <rect x="80" y="200" width="10" height="30" fill="#8c6239" /> <!-- bench leg -->
+            <rect x="210" y="200" width="10" height="30" fill="#8c6239" /> <!-- bench leg -->
+            <!-- Couple -->
+            <circle cx="120" cy="160" r="25" fill="#ff80ab" /> <!-- person 1 head -->
+            <rect x="110" y="180" width="20" height="40" fill="#ff80ab" rx="5" /> <!-- person 1 body -->
+            <circle cx="180" cy="160" r="25" fill="#d580ff" /> <!-- person 2 head -->
+            <rect x="170" y="180" width="20" height="40" fill="#d580ff" rx="5" /> <!-- person 2 body -->
+            <!-- Hearts -->
+            <text x="150" y="130" font-family="Arial" font-size="30" fill="#ff3377" text-anchor="middle">❤️</text>
+            <text x="120" y="110" font-family="Arial" font-size="20" fill="#ff3377" text-anchor="middle">💕</text>
+            <text x="180" y="110" font-family="Arial" font-size="20" fill="#ff3377" text-anchor="middle">💖</text>
+        </svg>
+    </div>
+    <div class="timeline-content">
+        <h3>Kỷ niệm ngọt ngào</h3>
+        <p>Lần đi Đà Lạt đầu tiên, là một chuyến đi mà mình sẽ còn nhớ hoài 🌸</p>
+        <img src="/assets/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.webp" alt="Meme dumb" class="reaction-gif">
+    </div>
+</div>
+
+<div class="timeline-item">
+    <div class="timeline-image">
+        <!-- Arguments SVG -->
+        <svg width="100%" height="100%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="bg3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="0%" stop-color="#ccf2ff" />
+                    <stop offset="100%" stop-color="#99dfff" />
+                </radialGradient>
+            </defs>
+            <rect width="300" height="300" fill="url(#bg3)" rx="20" />
+            <!-- Two people with speech bubbles -->
+            <circle cx="90" cy="150" r="40" fill="#ff80ab" /> <!-- person 1 -->
+            <circle cx="210" cy="150" r="40" fill="#d580ff" /> <!-- person 2 -->
+            <!-- Speech bubbles -->
+            <path d="M60,110 Q50,100 60,90 H100 Q110,90 110,100 V110 Q110,120 100,120 H70 L60,130 Z" fill="#ffffff" stroke="#dddddd" />
+            <path d="M240,110 Q250,100 240,90 H200 Q190,90 190,100 V110 Q190,120 200,120 H230 L240,130 Z" fill="#ffffff" stroke="#dddddd" />
+            <!-- Big heart connecting them -->
+            <path d="M140,170 L150,190 L160,170 C160,150 120,150 140,170" fill="#ff3377" />
+            <path d="M160,170 L150,190 L140,170 C140,150 180,150 160,170" fill="#ff3377" />
+        </svg>
+    </div>
+    <div class="timeline-content">
+        <h3>Những lần cự cãi</h3>
+        <p>Những lúc bất đồng quan điểm, nhưng vui chúng ta không bỏ nhau 💬</p>
+        <img src="/assets/dumb.gif" alt="Meme dumb" class="reaction-gif">
+    </div>
+</div>
+
+<div class="timeline-item">
+    <div class="timeline-image">
+        <!-- Daily happiness SVG -->
+        <svg width="100%" height="100%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="bg4" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="0%" stop-color="#ffeacc" />
+                    <stop offset="100%" stop-color="#ffcc80" />
+                </radialGradient>
+            </defs>
+            <rect width="300" height="300" fill="url(#bg4)" rx="20" />
+            <!-- Home outline -->
+            <path d="M50,150 L150,80 L250,150 V240 H50 Z" fill="#ffffff" stroke="#dddddd" stroke-width="3" />
+            <rect x="130" y="180" width="40" height="60" fill="#ff9eba" stroke="#dddddd" /> <!-- door -->
+            <!-- Couple -->
+            <circle cx="110" cy="200" r="25" fill="#ff80ab" /> <!-- person 1 head -->
+            <rect x="100" y="220" width="20" height="40" fill="#ff80ab" rx="5" /> <!-- person 1 body -->
+            <circle cx="190" cy="200" r="25" fill="#d580ff" /> <!-- person 2 head -->
+            <rect x="180" y="220" width="20" height="40" fill="#d580ff" rx="5" /> <!-- person 2 body -->
+            <!-- Sun -->
+            <circle cx="240" cy="70" r="25" fill="#ffcc00" />
+            <line x1="240" y1="35" x2="240" y2="20" stroke="#ffcc00" stroke-width="4" />
+            <line x1="240" y1="120" x2="240" y2="105" stroke="#ffcc00" stroke-width="4" />
+            <line x1="205" y1="70" x2="190" y2="70" stroke="#ffcc00" stroke-width="4" />
+            <line x1="290" y1="70" x2="275" y2="70" stroke="#ffcc00" stroke-width="4" />
+            <line x1="215" y1="45" x2="205" y2="35" stroke="#ffcc00" stroke-width="4" />
+            <line x1="275" y1="105" x2="265" y2="95" stroke="#ffcc00" stroke-width="4" />
+            <line x1="215" y1="95" x2="205" y2="105" stroke="#ffcc00" stroke-width="4" />
+            <line x1="275" y1="35" x2="265" y2="45" stroke="#ffcc00" stroke-width="4" />
+        </svg>
+    </div>
+    <div class="timeline-content">
+        <h3>Hạnh phúc mỗi ngày</h3>
+        <p>Mỗi ngày với em đều là một món quà quý giá, anh sẽ và đang cố để em được hạnh phúc hơn ❤️</p>
+        <img src="/assets/giphy.gif" alt="Heart Explosion" class="reaction-gif">
+    </div>
+</div>
+
+<div class="timeline-item">
+    <div class="timeline-image">
+        <!-- Future together SVG -->
+        <svg width="100%" height="100%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#7367f0" />
+                    <stop offset="50%" stop-color="#ce9ffc" />
+                    <stop offset="100%" stop-color="#ff6b95" />
+                </linearGradient>
+            </defs>
+            <rect width="300" height="300" fill="url(#sky)" rx="20" />
+            <!-- Hills -->
+            <path d="M0,240 Q75,200 150,230 Q225,200 300,240 V300 H0 Z" fill="#5e548e" />
+            <path d="M0,250 Q75,220 150,240 Q225,220 300,250 V300 H0 Z" fill="#231942" />
+            <!-- Stars -->
+            <circle cx="50" cy="50" r="2" fill="#ffffff" />
+            <circle cx="100" cy="80" r="2" fill="#ffffff" />
+            <circle cx="150" cy="40" r="2" fill="#ffffff" />
+            <circle cx="200" cy="70" r="2" fill="#ffffff" />
+            <circle cx="250" cy="50" r="2" fill="#ffffff" />
+            <circle cx="70" cy="100" r="2" fill="#ffffff" />
+            <circle cx="120" cy="30" r="2" fill="#ffffff" />
+            <circle cx="170" cy="90" r="2" fill="#ffffff" />
+            <circle cx="220" cy="40" r="2" fill="#ffffff" />
+            <circle cx="270" cy="80" r="2" fill="#ffffff" />
+            <!-- Shooting star -->
+            <path d="M60,20 L80,50" stroke="#ffffff" stroke-width="2" />
+            <circle cx="60" cy="20" r="3" fill="#ffffff" />
+            <!-- Moon -->
+            <circle cx="250" cy="70" r="30" fill="#ffffff" />
+            <circle cx="235" cy="60" r="25" fill="url(#sky)" />
+            <!-- Couple silhouette -->
+            <path d="M110,250 L110,210 L105,180 C105,170 110,160 120,160 C130,160 135,170 135,180 L130,210 L130,250 Z" fill="#000000" />
+            <path d="M170,250 L170,205 L165,170 C165,160 170,150 180,150 C190,150 195,160 195,170 L190,205 L190,250 Z" fill="#000000" />
+            <path d="M130,210 C140,215 160,215 170,210" stroke="#000000" stroke-width="5" fill="none" />
+        </svg>
+    </div>
+    <div class="timeline-content">
+        <h3>Tương lai bên nhau</h3>
+        <p>Anh mong mình được bên nhau mãi mãi, luôn yêu thương, che chở cho nhau 🌟</p>
+        <img src="/assets/thank.gif" alt="Love" class="reaction-gif">
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Love Message -->
+    <section class="section love-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Lời Chúc Của Chồng 💝</h2>
+            <div class="love-message">
+                <p class="reveal-text">Vợ iu oi,</p>
+                <p class="reveal-text">Trong ngày đặc biệt này, anh muốn nói với em rằng:</p>
+                <p class="reveal-text">Em là người phụ nữ tuyệt vời nhất trên đời này,</p>
+                <p class="reveal-text">Là niệm hạnh phúc và là người mỗi sáng sớm anh đều mong được gặp.</p>
+                <p class="reveal-text">Là người con gái luôn giỏi giang, chăm chỉ, đầy nhiệt huyết và là người anh luôn ngưỡng mộ (thiệt á).</p>
+                <p class="reveal-text">Chúc em luôn xinh đẹp, hạnh phúc và thành công trong mọi điều em làm.</p>
+                <p class="reveal-text">Anh yêu vợ nhiều lắm! 💖💖💖</p>
+            </div>
+            <img src="/assets/200.gif" alt="Beating Heart" class="gif-image">
+        </div>
+    </section>
+
+    <!-- Section 6: Final -->
+    <section class="section final-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Dành riêng cho em ✨</h2>
+            <button class="bouquet-button" id="bouquetButton">Nhận bó hoa từ anh 💐</button>
+        </div>
+    </section>
+
+    <!-- Popup Bouquet -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content">
+            <button class="close-popup" id="closePopup">×</button>
+            <h2>💐 Dành tặng em yêu 💐</h2>
+            <img src="/assets/Lavender-gif.webp" alt="Flowers" class="popup-gif">
+            <img src="/assets/firework.gif" alt="Fireworks" class="popup-gif">
+            <p class="popup-text">Happy Women's Day 20/10, cục dàng! 💖</p>
+            <p class="popup-text">Anh yêu em vô cùng! 🥰</p>
+        </div>
+    </div>
+
+    <!-- Falling Emojis Container -->
+    <div class="falling-emojis" id="fallingEmojis"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
